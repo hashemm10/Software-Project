@@ -1,0 +1,115 @@
+<html>
+<head>   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<title> Welcome</title>
+<body>
+
+<div class="welcome" id="section1">
+<h4>WELCOME TO</h4>
+<h6> THE NON-PROFIT ORGANIZATION SYSTEM</h6>
+</div>	
+<ul class="menu1">
+<li><button class="open-button" onclick="openForm()">Login</button></li>
+<li><button type="button" data-toggle="modal" data-target="#myModal">Signup</button></li>
+</ul>
+<div class="modal fade" id="myModal" >
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+       
+        <div class="modal-body">
+                <form action="AddtoDatabase.php" method="post">
+                  <h3>Registration</h3>
+                  <div class="form-wrapper">
+                    <select name="AType" class="form-control" required>
+                      <option value="" disabled selected>Account Type</option>
+                      <option value="Patient">Patient</option>
+                      <option value="Doctor">Doctor</option>
+                      <option value="Receptionist">Receptionist</option>
+                    </select>
+                </div>
+                  
+                  <div class="form-group">
+                    <input type="text" name="firstname" placeholder="First Name" class="form-control" required>
+                    <input type="text" name="Lastname" placeholder="Last Name" class="form-control" required>
+                  </div>
+                  <div class="form-wrapper">
+                  <input type="email" name="email" placeholder="Email Address" class="form-control" required>
+                    
+                  </div>
+                  <div class="form-wrapper">
+                    <input type="password" name="password" placeholder="Password" class="form-control" required>
+                    
+                  </div>
+                  <div class="form-wrapper">
+                    <input type="password" name="password" placeholder="Confirm Password" class="form-control" required>
+                    
+                  </div>
+                  <div class="form-wrapper">
+                    <input type="number" placeholder="Phone Number" name="PhoneNumber" class="form-control">
+                    
+                  </div>
+                  <div class="form-wrapper">
+                    <select name="gender" class="form-control" required>
+                      <option value="" disabled selected>Gender</option>
+                      <option value="M">Male</option>
+                      <option value="F">Female</option>
+                      <option value="O">Other</option>
+                    </select>
+                    <div class="form-wrapper">
+                      <select name="BType" class="form-control" required>
+                        <option value="" disabled selected>Blood Type</option>
+                    <option value="O-">O-</option>
+                    <option value="O+">O+</option>
+                    <option value="A-">A-</option>
+                    <option value="A+">A+</option>
+                    <option value="B-">B-</option>
+                    <option value="B+">B+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="AB+">AB+</option>
+                    
+                      </select>
+                  </div>
+				<div class="form-wrapper">
+                    <input type="number" placeholder="Age" id="Age" name="Age" class="form-control">
+                    
+                  </div>
+                  </div>
+                  
+                  <button class="btn btn-default" name="submit">Register</button>
+                </form>
+            </div></div>
+		</div>
+        </div>
+		</div>
+
+<div class="form-popup" id="myForm">
+<div class="form" id="myForm">
+<form action="Loggingin.php" method="post" class="form-container">
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="Email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="Password" required>
+
+    <input type="submit" name="submit" class = "btn" value="Login" ><br>
+	<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+
+</html>
