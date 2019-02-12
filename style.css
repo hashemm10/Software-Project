@@ -1,0 +1,967 @@
+html{
+scroll-behavior: smooth;
+margin:0;
+padding:0;
+width:100%;
+}
+.menu1{
+	position:absolute;
+	 height:500px;
+	 width:1405px;
+	/*  margin-left:65px;
+	 margin-top:40px; */
+	 padding-left:630px;
+	 margin-top:30px;
+}
+.menu1 a{
+	color:#ffffff;	
+    text-decoration: none;
+    display:block;
+}
+.menu1 button{
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    display: block;
+    width: 155px;
+    height: 50px;
+    font-size: 20px;
+}
+.menu1 a:hover{
+ background-color:#404185;	
+}
+.menu1 button:hover{
+ background-color:#404185;	
+}
+.menu1 li ul li {
+	display:none;
+}
+.menu1 li:hover ul li {
+	display:block;
+	
+}
+.menu1 ul{
+	margin:0px;
+	padding:0px;
+}
+
+.menu1 li{
+
+	float:left;
+  	list-style:none;
+	width:155px;
+	height:50px;
+	background-color:black;
+	opacity:0.8;
+	line-height:50px;
+	text-align:center;
+	font-size:20px;
+}
+
+
+
+.menu2{
+	position:absolute;
+    width: 1525px;
+	margin-top:-50px;
+	
+}
+.menu2 a{
+
+	color:#ffffff;	
+    text-decoration: none;
+    display:block;
+	
+}
+.menu2 button{
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    display: block;
+    width: 252.5;
+    height: 50px;
+    font-size: 20px;
+}
+.menu2 a:hover{
+	
+ background-color:#404185;	
+}
+.menu2 button:hover{
+ background-color:#404185;	
+}
+.menu2 li ul li {
+	
+	display:none;
+
+}
+.menu2 li:hover ul li{
+
+	display:block;
+}
+
+
+.menu2 li{
+
+	float:left;
+  	list-style:none;
+	width:252.5px;
+	height:50px;
+	background-color:black;
+	opacity:0.8;
+	line-height:50px;
+	text-align:center;
+	font-size:20px;
+}
+.logo{
+	position:absolute;
+    padding-top:10px;
+
+	
+}
+.open-button {
+  background-color: #555;
+  color: white;
+
+}
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 200px;
+  right: 580px;
+
+
+}
+
+/* Add styles to the form container */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.form-container {
+  font-family: 'Roboto', sans-serif;
+  max-width: 330px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* Fixed navbar */
+
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}
+
+/* mobile fix */
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
+}
+
+
+.mySlides  {
+
+
+     margin-top:-8px;
+   	 width:100%;	 
+	 height:700px;
+
+}
+.grid-container1 {
+    position:absolute;
+    margin-left:210px;
+	margin-top:-50px;
+    display: grid;
+    grid-template-columns: 373px 373px 373px;
+    grid-template-rows: 100px;
+    
+}
+.gridheader{
+    padding-bottom: 30px;	
+}
+
+.grid-item1 {
+ 
+  background-color:#62638F;
+  height:190px;
+  padding-top:17px;
+  color:#ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+.grid-item2 {
+  
+  background-color:#8D8DB8;
+  height:190px;
+  padding-top:17px;
+  color:#ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+.grid-item3 {
+  
+  background-color:#BEBEDD;
+  height:190px;
+  padding-top:17px;
+  color:#ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+.welcome{
+	background-color:E2E1E1;
+	margin-top:10px;
+	text-align:center;
+	font-size:30px;
+	font-style:oblique;
+	height:120px;
+	width:100%;
+}
+.welcome h4{
+	padding-top:17px;
+	margin-left:30px;
+	font-size:25px;
+    font-family:Georgia;
+	color:#000000;
+}
+.welcome h6{
+	margin-top:17px;
+	margin-left:20px;
+	font-size:20px;
+	font-family:Georgia;
+	color:#000000;
+}
+.welcome p{
+    width: 1250px;
+	padding-left:300px;
+	margin-top:7px;
+	font-family:Georgia;
+	font-size:15px;
+    color:#353687;
+}
+
+/* #myForm{
+padding-left:630px;
+margin-top:30px;
+} */
+#myVideo{
+	
+    width:100%;	
+	z-index:0;
+}
+.videooverlay img{
+	position: absolute;
+    height: 855px;
+    width:1527px;
+    margin-top: -855px;
+    opacity: 0.5;
+	/*videolayout.png*/
+}
+
+
+
+.grid-container {
+	margin-left: 225px;
+    margin-top: -900px;
+    position:absolute;
+    z-index:2;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 190px 190px 190px 190px  ;
+    padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  background-color:#000000;
+  height:150px;
+  margin-top:-30px;
+  opacity:0.6;
+  color:#ffffff;
+  font-size: 19px;
+  text-align: center;
+
+}
+.item1{
+		
+	    margin-top:45px;
+		text-align: center;
+		grid-column: 1 / span 2;
+}
+.smilegallerydiv{
+	background-image: url("smilegalley.jpg");
+	background-repeat:no-repeat;
+	background-size:1550px;
+	height:500px;
+	color:#ffffff;
+	width:100%;
+
+
+	
+}
+.overlay{
+	
+	background:black;
+	opacity:0.8;
+	height:500px;
+	width:1550px;
+ 
+	position:absolute;
+}
+#buttonsmilegallery{
+	position:absolute;
+	margin-top:-310px;
+	margin-left:900px;
+    width:250px;
+	background-color:gray;
+	color:white;
+	height:90px;
+	font-size:23px;
+	border-radius:25px;
+}
+ #overlayh1{
+	position:absolute;
+	color:#ffffff;
+	font-size:30px;
+	font-style:oblique;
+	margin-left:80px;
+	margin-top:180px;
+} 
+	#overlayp{
+	position:absolute;
+	color:#ffffff;
+	font-size:25px;
+	margin-left:80px;
+	margin-top:240px;
+} 
+/*General*/
+.section9{
+height:400px;
+background-image:url("dentalimplant.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:1520px;
+background-position:0px;	
+margin-top: 48px;
+}
+.section10{
+	    margin-top:-50px;
+	    height: 110px;
+	
+}
+.section11{
+height:450px;
+background-image:url("root-canal.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:1520px;
+background-position:0px 150px;	
+margin-top: 88px;
+
+}
+
+/*Cosmetic.html*/
+ .sections{
+   background-color:#e1e1e1;
+   width:100%;
+
+ }
+ .sections p{
+  font-size:18px;
+  padding-top: 24px;
+  text-align:center;
+  padding-left:15px;
+ }
+
+.section2{
+height:400px;
+background-image:url("porcelain-veneers3.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:1520px;
+background-position:0px;	
+margin-top: 48px;
+}
+.section3{
+	    margin-top:-50px;
+	    height: 110px;
+	
+}
+.section4{
+height:450px;
+background-image:url("invisalign.png");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:1520px;
+background-position:0px;	
+margin-top: 88px;
+
+}
+.section5{
+	    margin-top:-50px;
+	    height: 135px;
+	
+}
+.section6{
+height:400px;
+background-image:url("teethbleaching.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:1520px;
+background-position:0px;	
+margin-top: 88px;
+
+}
+.section7{
+	    margin-top:-50px;
+	    height: 135px;
+	
+}
+.section8{
+height:530px;
+background-image:url("ghnw20150428-093534-191.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:1520px;
+background-position:0px 20px;	
+margin-top: 88px;
+
+}
+
+.learnmore{
+	
+background:url("silver.jpg");
+margin-left:690px;
+margin-top:44px;	
+ font-size:22px;
+ color:gray;
+}
+
+ /* PorcelainVeneers.html*/
+
+.bg-image img{
+  margin-top:125px;
+  height:78%; 
+  width:1515px;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+	width:1513px;
+	height:120px;
+    margin-top:-713px;
+    background-color:#000000;
+  opacity:0.5;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  font-size:18px;
+  
+}
+.bg-text p{
+	
+	padding-top:20px;
+	padding-left:20px;
+}
+ .porcelain{
+	
+
+   background: url("silver.jpg") no-repeat   ;
+   background-size:100%;
+   width:100%;
+   text-align:center;
+   margin-top:50px;
+
+	
+
+ }
+ .porcelainbody{
+    position:absolute;
+	margin-top:-235px;
+	margin-left:-6px;
+	height:150px;
+    font-size:20px;
+ }
+ .porcelainimg{
+     margin-top:-21px;
+	 margin-left:-7px;
+	 width:100%;
+	 height:450px;
+	 opacity:0.7;
+ }
+ .porcelaindiv {
+
+    position:relative;
+	margin-top:590px;
+    display: grid;
+    grid-template-columns: 1515px ;
+	font-family:Verdana;                 
+}
+
+.porcelain-item {
+  border: 4px dashed #BEBEDD;
+  height:190px;
+  font-size: 20px;
+  text-align: center;
+  padding-left:80px;
+  padding-right:70px;
+}
+
+/*smilegallery.html*/
+.grid-container2 {
+    display: grid;
+    margin-top: 44px;
+   
+    grid-gap: 80px;
+    background-color: rgb(0,0,0,0.9);
+    
+    grid-template-columns: 260px 260px 260px 260px;
+    grid-template-rows: 300px;
+    /* padding: 18px; */
+    padding-left: 150px;
+    padding-top: 160px;
+    height: 560px;
+}
+
+.flip-box {
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flip-box1 {
+  background-color: transparent;
+
+
+    height:300px;
+	 margin-right: -17px;
+    margin-top: -19px;
+    margin-left: -18px;
+    border: 1px solid #f1f1f1;
+
+}
+.flip-box1 img{
+	
+	    height:300px;
+		width:330px;
+	 margin-right: -17px;
+	     margin-left: -18px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+iframe{
+	    padding-left:200px;
+		margin-top:-90px;
+        height:200px;
+        width: 1000px;
+}
+#section3{
+	background-image:url("contactarrow.jpg");
+	background-repeat:no-repeat;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section3 p{
+margin-left:1100px;
+
+}
+/*user.html*/
+.userheader{
+    background-color: #444D5B;
+    color:#ffffff;
+	margin-left: -8px;
+	margin-top: -20px;
+    height:190px;
+}
+.userheader h5{
+	padding-top:100px;
+	padding-left:20px;
+}
+.userbackground{
+ 
+
+	margin-left:-8px;
+	background-repeat:no-repeat;
+	
+}
+.patientmenu {
+
+    display: grid;
+    grid-gap: 90px;
+    
+    grid-template-columns: 300px 400px;
+   /* grid-template-rows: 665px ;*/
+	margin-left:100px;
+    
+}
+.patientmenu h1{
+ margin-left:85px;
+}
+ 
+
+
+/*doctor.html*/
+.doctorbuttons button{
+	
+  background-color: #000000;
+  border: 2px solid white;
+  border-radius:30px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  cursor: pointer;
+
+}
+.doctorbuttons button:hover{opacity:1;}
+.schedule {
+  display: none;
+	background-color: #D3E4E4;
+	position:absolute;
+	margin-top:-625px;
+    margin-left:-5px;
+	display: none;
+}
+.schedule table,th,td{
+    border: 2px solid black;
+	border-collapse:collapse;
+    width:1506px;
+	height:40px;
+	
+	
+}
+
+
+.createschedule table,th,td{
+	     text-align:center;
+	     margin-top: -479px;
+         margin-left: 516px;
+	
+}
+.createschedule button{
+background-color: #444D5B;
+color:#ffffff;
+width:500px;
+height:30px;
+}
+.patientlist {
+	background-color: #D3E4E4;
+	position:absolute;
+	margin-top:-625px;
+    margin-left:-5px;
+	display:none;
+}
+.patientlist table,th,td{
+    border: 2px solid black;
+	border-collapse:collapse;
+    width:1506px;
+	height:40px;	
+}
+
+.logout{
+margin-top:-40px;
+padding-left:1350px;
+}
+.logout a{
+color:#ffffff;
+}
+.left{
+margin-top:-1000px;
+margin-left:100px;
+
+}
+.left button{
+  background-color: #D3E4E4;
+  width:250px;
+  height:40px;
+  border-radius: 20px;
+  margin-top:15px;
+}
+
+#board{  display:none;
+}
+#board table,td,th{
+	 
+	  border:none;
+     margin-top:-530px;
+     margin-left:260px;
+     width:300px;
+}
+
+#EditBooking{
+  display:none;
+  margin-top: -500px;
+  margin-left: 230px;
+  width:170px;
+}
+
+
+
+.profilebox{
+		
+		background-color:#000000;
+	    padding: 10px;
+        margin-top: -61px;
+		color:#ffffff;
+		text-align: center;
+		height:60px;
+	    font-size: 22px;
+	}
+#ViewProfile {
+	display:none;
+    box-shadow: 0 8px 90px 0 rgba(0,0,0,0.5);
+    background-color: rgba(214,220,228,0.75);
+    width: 420;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px; 
+	line-height:45px;
+    margin: auto;
+    height: 410px;
+    margin-right: 550px;
+    margin-top: 220px;
+    text-align: center;
+  
+}
+  #EditProfile{
+    display:none;
+    box-shadow: 0 8px 90px 0 rgba(0,0,0,0.5);
+    background-color: rgba(214,220,228,0.75);
+    width: 420;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+   
+    margin: auto;
+    height: 410px;
+    margin-right: 550px;
+    margin-top: 220px;
+  
+  }
+
+
+  #editsubmit input{
+	  
+	  background-color: #000000;
+  border: 2px solid white;
+  border-radius:30px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  cursor: pointer;
+
+  }
+	  
+#DeleteAccount{display:none;
+  border:none;
+  margin-top:-530px;
+  margin-left:260px;
+  width:300px;}
+#ViewBooking{display:none;
+    border:none;
+    margin-top:-530px;
+    margin-left:260px;
+    width:300px;
+  }
+#board button{
+background-color: #444D5B;
+color:#ffffff;
+width:300px;
+}
+#DateTimePicker{   
+   margin-top: -500px;
+  margin-left: 230px;
+}
+
+footer{
+	padding:20px;
+	color:#ffffff;
+	background-color:#8D8DB8;
+	text-align:center;
+}
+body {
+  font-family: "Poppins-Regular";
+  color: #333;
+  font-size: 13px;
+  margin: 0; }
+  
+.modal-dialog{width:60%;}
+/* Form Register Pop up */
+input, textarea, select, button {
+  font-family: "Poppins-Regular";
+  color: #333;
+  font-size: 13px; }
+
+p, h1, h2, h3, h4, h5, h6, ul {
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+:focus {
+  outline: none; }
+
+.wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center; }
+
+.inner {
+  padding: 20px;
+  background: #fff;
+  max-width: 850px;
+  margin: auto;
+  display: flex; }
+  .inner .image-holder {
+    width: 50%; }
+  .inner form {
+    width: 50%;
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-right: 45px; }
+  .inner h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Poppins-SemiBold";
+    text-align: center;
+    margin-bottom: 28px; }
+
+.form-group {
+  display: flex; }
+  .form-group input {
+    width: 50%; }
+    .form-group input:first-child {
+      margin-right: 25px; }
+
+.form-wrapper {
+  position: relative; }
+  .form-wrapper i {
+    position: absolute;
+    bottom: 9px;
+    right: 0; }
+
+.form-control {
+  border: 1px solid #333;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  margin-bottom: 25px; }
+  .form-control::-webkit-input-placeholder {
+    font-size: 13px;
+    color: #333;
+    font-family: "Poppins-Regular"; }
+  .form-control::-moz-placeholder {
+    font-size: 13px;
+    color: #333;
+    font-family: "Poppins-Regular"; }
+  .form-control:-ms-input-placeholder {
+    font-size: 13px;
+    color: #333;
+    font-family: "Poppins-Regular"; }
+  .form-control:-moz-placeholder {
+    font-size: 13px;
+    color: #333;
+    font-family: "Poppins-Regular"; }
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding-left: 20px; }
+  select option[value=""][disabled] {
+    display: none; }
+/*receptionist.php*/
+
+
+.PendingPatient table,th,td{
+  text-align:center;
+  margin-top: -479px;
+
+}
