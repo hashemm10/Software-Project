@@ -249,6 +249,43 @@ INSERT INTO `usertype` (`UserType_Id`, `Type`) VALUES
 --
 ALTER TABLE `address`
   ADD CONSTRAINT `address_ibfk_2` FOREIGN KEY (`SRK`) REFERENCES `address` (`AID`);
+  
+--
+-- Dumping data for table `usertype`
+--
+  
+INSERT INTO `address` (`AID`, `Address`, `SRK`) VALUES
+(1, 'Cairo', 0),
+(2, 'Giza', 0),
+(3, 'Alexandria', 0),
+(4, 'Dakahlia', 0),
+(5, 'Red Sea', 0),
+(6, 'the lake', 0),
+(7, 'Fayoum', 0),
+(8, 'Western', 0),
+(9, 'Ismaili', 0),
+(10, 'Menoufia', 0),
+(11, 'Minya', 0),
+(12, 'Qaliubiya', 0),
+(13, 'New Valley', 0),
+(14, 'Suez', 0),
+(15, 'Aswan', 0),
+(16, 'Assiut', 0),
+(17, 'Beni Suef', 0),
+(18, 'Port Said', 0),
+(19, 'Damietta', 0),
+(20, 'Eastern', 0),
+(21, 'South Sinai', 0),
+(22, 'Kafr al-Sheikh', 0),
+(23, 'Matrouh', 0),
+(24, 'Luxor', 0),
+(25, 'Qena', 0),
+(26, 'North Sinai', 0),
+(27, 'Sohag', 0);
+
+--
+-- Constraints for dumped tables
+--
 
 --
 -- Constraints for table `course`
